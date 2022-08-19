@@ -1,0 +1,11 @@
+{
+	"name": "app-functions",
+	"version": "1.0.0",
+	"dependencies": {
+		"downloadjs": "^1.4.7",
+		"jspdf": "^2.5.1",
+		"lodash": "^4.17.15",
+		"pdf-lib": "^1.17.1"
+	},
+	"private": "true"
+}

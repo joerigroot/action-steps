@@ -1,0 +1,8 @@
+{
+  "description": "Description",
+  "label": "Hello World",
+  "category": "Misc",
+  "icon": "CreateIcon",
+  "options": [],
+  "yields": "NONE"
+}
