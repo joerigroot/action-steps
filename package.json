@@ -2,10 +2,15 @@
 	"name": "app-functions",
 	"version": "1.0.0",
 	"dependencies": {
+		"@apollo/client": "^3.6.9",
+		"Base64": "^1.1.0",
 		"downloadjs": "^1.4.7",
+		"export-to-csv": "^0.2.1",
 		"jspdf": "^2.5.1",
+		"jssha": "^3.2.0",
 		"lodash": "^4.17.15",
-		"pdf-lib": "^1.17.1"
+		"pdf-lib": "^1.17.1",
+		"xml-js": "^1.6.11"
 	},
 	"private": "true"
 }

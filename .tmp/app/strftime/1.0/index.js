@@ -27,9 +27,9 @@ const strftime = async ({ date, format }) => {
 		'December',
 	];
 	let day = newDate.getDate();
-	let dayText = weekday[date.getDay()];
+	let dayText = weekday[newDate.getDay()];
 	let month = newDate.getMonth() + 1;
-	let monthText = months[date.getMonth()];
+	let monthText = months[newDate.getMonth()];
 	let year = newDate.getYear() - 100 + 2000;
 
 	let newDateString = '';

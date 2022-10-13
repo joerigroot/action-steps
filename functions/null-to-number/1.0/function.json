@@ -1,0 +1,29 @@
+{
+	"description": "Null to number",
+	"label": "Null to number",
+	"category": "Misc",
+	"icon": "CreateIcon",
+	"options": [
+		{
+			"meta": {
+				"type": "Text"
+			},
+			"name": "input",
+			"label": "Input ",
+			"info": "Input",
+			"advanced": false
+		},
+		{
+			"meta": {
+				"type": "Output",
+				"output": {
+					"type": "Text"
+				}
+			},
+			"name": "result",
+			"label": "Result",
+			"info": "The result as an array"
+		}
+	],
+	"yields": "NONE"
+}

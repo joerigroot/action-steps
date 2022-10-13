@@ -1,0 +1,38 @@
+{
+	"description": "Log.",
+	"label": "Log",
+	"category": "Misc",
+	"icon": "CreateIcon",
+	"options": [
+		{
+			"meta": {
+				"type": "Text"
+			},
+			"name": "logName",
+			"label": "Log name",
+			"info": "Log name",
+			"advanced": false
+		},
+		{
+			"meta": {
+				"type": "Text"
+			},
+			"name": "logValue",
+			"label": "Log value",
+			"info": "Log value",
+			"advanced": false
+		},
+		{
+			"meta": {
+				"type": "Output",
+				"output": {
+					"type": "Text"
+				}
+			},
+			"name": "result",
+			"label": "Result",
+			"info": "The result as an array"
+		}
+	],
+	"yields": "NONE"
+}
